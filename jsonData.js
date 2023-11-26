@@ -1397,5 +1397,36 @@ const data = [
   
  
 ]
-module.exports=data
+const ads = [
+    {
+        type:"home",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrl9fuBwHBMaHAtKhF9HMbzNISGYQl4lTTg&usqp=CAU"
+    }, {
+        type:"bollywood",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4PNvbGEpgQOQ-5MGINvxMztvXjirhgC9xRA&usqp=CAU"
+
+    },
+    {
+        type:"hollywood",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Q0gFCnSL2f9Xxj8r5mSlh2JPYk_4UJtOfg&usqp=CAU"
+
+    },
+    {
+        type:"technology",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClXkafFmD8UlTkkMOsD-pV4qLtzEmokXCITjj9kToFBjqCRbZUhWFwF1Hx1K95zEQQ-w&usqp=CAU"
+
+    },
+    {
+        type:"fitness",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-CzFgGldlySDn_T8koIHgt54G8Zfa971jg&usqp=CAU"
+
+    },
+    {
+        type:"food",
+        img:"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/healthy-food-ads-design-template-c42169e0d4e9560e7fb43df707c8bf8f_screen.jpg?ts=1650963774"
+
+    }
+
+]
+module.exports={ads,data}
 
